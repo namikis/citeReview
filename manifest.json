@@ -1,0 +1,13 @@
+{
+    "name": "citeReview",
+    "version": "1.0.1",
+    "manifest_version": 2,
+    "description": "Sample Chrome Extension",
+    "content_scripts": [
+      {
+        "matches": ["https://www.google.com/*"],
+        "js": ["event.js"]
+      }
+    ]
+    
+  }
