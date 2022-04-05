@@ -6,8 +6,9 @@
     "content_scripts": [
       {
         "matches": ["https://www.google.com/*"],
-        "js": ["event.js"]
+        "js": ["./js/event.js"]
       }
-    ]
+    ],
+    "web_accessible_resources": ["src/js/*"]
     
   }
